@@ -1,0 +1,13 @@
+Field group,Key fields,Purpose
+Time,"Month, Year, Quarter, Month_Name, Month_Index","Build monthly trends, year-over-year views and date filters."
+Employee,"User_ID, Department, Business_Unit, Role_Level, Location",Segment adoption by organizational attributes.
+Adoption,"Active_Flag, New_User_Flag, Retained_User_Flag, Reactivated_User_Flag, Churned_User_Flag","Create adoption, retention, churn and cohort KPIs using COUNTD(User_ID)."
+Maturity,"Adoption_Stage, AI_Maturity_Score",Segment employees from inactive through power-user maturity.
+Activity,"Tool, Tool_Category, Use_Case, Channel, Sessions, Messages, Days_Active",Analyze how AI is being used.
+Economics,"Total_Cost_USD, Estimated_Hours_Saved, Estimated_Value_USD, ROI_Pct","Build cost, productivity and ROI analysis."
+Quality,"Satisfaction_Score, Successful_Response_Pct, Avg_Response_Time_Sec",Analyze user experience and solution performance.
+Governance,"Policy_Compliance_Pct, Sensitive_Data_Incidents, Escalations",Create responsible-AI and risk views.
+Targets,"Adoption_Target_Pct, Active_User_Target, Message_Target, Monthly_Budget_USD",Compare department performance with monthly targets.
+Important Tableau note,Department-month totals and targets,"These values repeat across activity rows; use AVG, MIN or ATTR rather than SUM."
+Important Tableau note,User-month totals,These values repeat across a user's tool rows; use MAX or ATTR when displaying user-month totals.
+Data origin,Synthetic portfolio data,Realistic patterns created for skills demonstration; it does not represent a real company.
