@@ -408,17 +408,3 @@ For the detailed manual sequence, use the 127-page walkthrough included in the r
 - **GitHub**
 
 ---
-
-## Public Portfolio Links
-
-**Live Tableau dashboard**  
-https://public.tableau.com/app/profile/pedro.yanez/viz/AIAdoptionAnalytics/Dashboard1
-
-**GitHub repository**  
-https://github.com/p1y1m/tableau-ai-adoption-business-value-dashboard
-
----
-
-## Author
-
-**Pedro Yanez Melendez**
